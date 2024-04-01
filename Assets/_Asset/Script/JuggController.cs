@@ -16,8 +16,7 @@ public class JuggController : MonoBehaviour
     [SerializeField] private int HP;
     [SerializeField] private Collider2D rollcollider;
     [SerializeField] private Collider2D standcollider;
-    [SerializeField] private Collider2D attackcollider1;
-    [SerializeField] private Collider2D attackcollider2;
+    [SerializeField] private GameObject[] hitbox;
     private int currentHP;
     private bool Alive = true;
 
@@ -174,28 +173,24 @@ public class JuggController : MonoBehaviour
         }
     }
 
-    void EnableAttack()
+    private void DisableHitbox()
     {
-        if (spriterender.flipX == true)
-        {
-            attackcollider1.enabled = true;
-            attackcollider2.enabled = false;
-        }
-        else if (spriterender.flipX == false)
-        {
-            attackcollider2.enabled = true;
-            attackcollider1.enabled = false;
-        }
-    }
-
-    private void DisableCollider()
-    {
-        attackcollider2.enabled = false;
-        attackcollider1.enabled = false;
+        hitbox[0].SetActive(false);
+        hitbox[1].SetActive(false);
     }
 
     private void EnableHitbox()
     {
-        
+        hitbox[0].SetActive(true);
+        if (spriterender.flipX == true)
+        {
+            hitbox[0].SetActive(false);
+            hitbox[1].SetActive(true);
+        }
+        else if (spriterender.flipX == false)
+        {
+            hitbox[0].SetActive(true);
+            hitbox[1].SetActive(false);
+        }
     }
 }
