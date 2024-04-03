@@ -17,8 +17,13 @@ public class JuggController : MonoBehaviour
     [SerializeField] private Collider2D rollcollider;
     [SerializeField] private Collider2D standcollider;
     [SerializeField] private GameObject[] hitbox;
+    [SerializeField] private Animator dragonanimator;
+    [SerializeField] private Transform heropoint;
+    [SerializeField] private List<Transform> sumonpoint;
+    [SerializeField] private GameObject wardPrefab;
     private int currentHP;
     private bool Alive = true;
+    private GameObject objectspawn;
 
     [SerializeField] private LayerMask enemuLayer;
     [SerializeField] private Transform AttackPoint;
@@ -83,12 +88,11 @@ public class JuggController : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.K))
             {
                 animator.SetTrigger("Attack2");
-                //attackcollider.enabled = true;
-                //Invoke("HideCollder", 3.0f);
             }
             else if (Input.GetKeyDown(KeyCode.L))
             {
                 animator.SetTrigger("Summon");
+                SummonWard();
             }
             else if (Input.GetKeyDown(KeyCode.LeftControl))
             {
@@ -154,22 +158,16 @@ public class JuggController : MonoBehaviour
         currentHP -= 1;
         if (currentHP <= 0)
         {
+            Debug.Log("Jugg loose");
             Death();
             Alive = false;
+            dragonanimator.SetTrigger("Win");
             return;
         }
         else
         {
             animator.SetTrigger("Hurt");
-            Debug.Log($"{currentHP}/{HP}");
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Dragon"))
-        {
-            collision.GetComponent<DrogonController>().TakeDame();
+            Debug.Log($"Jugg: {currentHP}/{HP}");
         }
     }
 
@@ -177,11 +175,14 @@ public class JuggController : MonoBehaviour
     {
         hitbox[0].SetActive(false);
         hitbox[1].SetActive(false);
+        hitbox[2].SetActive(false);
+        hitbox[3].SetActive(false);        
+        hitbox[4].SetActive(false);
+        hitbox[5].SetActive(false);
     }
 
     private void EnableHitbox()
     {
-        hitbox[0].SetActive(true);
         if (spriterender.flipX == true)
         {
             hitbox[0].SetActive(false);
@@ -191,6 +192,60 @@ public class JuggController : MonoBehaviour
         {
             hitbox[0].SetActive(true);
             hitbox[1].SetActive(false);
+        }
+    }
+
+    private void EnableHitbox2()
+    {
+        if (spriterender.flipX == true)
+        {
+            hitbox[2].SetActive(false);
+            hitbox[3].SetActive(true);
+        }
+        else if (spriterender.flipX == false)
+        {
+            hitbox[2].SetActive(true);
+            hitbox[3].SetActive(false);
+        }
+    }
+
+    private void EnableKick()
+    {
+        if (spriterender.flipX == true)
+        {
+            hitbox[4].SetActive(false);
+            hitbox[5].SetActive(true);
+        }
+        else if (spriterender.flipX == false)
+        {
+            hitbox[4].SetActive(true);
+            hitbox[5].SetActive(false);
+        }
+    }
+
+    private void SummonWard()
+    {
+        if (objectspawn == null)
+        {
+            if (spriterender.flipX)
+            {
+                objectspawn = Instantiate(wardPrefab, sumonpoint[1].position, Quaternion.identity);
+                objectspawn.transform.parent = transform;
+            }
+            else if (!spriterender.flipX)
+            {
+                objectspawn = Instantiate(wardPrefab, sumonpoint[0].position, Quaternion.identity);
+                objectspawn.transform.parent = transform;
+            }
+        }    
+    }
+
+    public void RestoreHP()
+    {
+        if (currentHP < HP)
+        {
+            currentHP += 1;
+            Debug.Log($"{currentHP}/{HP}");
         }
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Dragon
   - Iblast
+  - Ward
   layers:
   - Default
   - TransparentFX

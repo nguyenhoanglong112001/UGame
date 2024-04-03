@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 692
+        width: 158
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de7f94ed1342c4b9f24d648c9adf62
+      internalID: 1946387901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 700
+        width: 149
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46902d759f0fe648b322a8da4d6fdd9
+      internalID: -844521554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 706
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9545235c178c2654cb563e7dfa256cf3
+      internalID: 407162583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 712
+        width: 147
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cb9916347f3a144a48e13ed7d23afa
+      internalID: 1818903598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 718
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06df56709e3be4b41994f522b6c1947b
+      internalID: 825192831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 712
+        width: 146
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bd30f0657777b46909b5970f7eb69e
+      internalID: -1622023577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 706
+        width: 155
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330b7f172f0aa9a45b3ce28d33282bb9
+      internalID: -2005887817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 700
+        width: 146
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d144590dac3594042b31c181bd9c47f1
+      internalID: 521926970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 691
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6138f5ed091b36d428fefa892136b209
+      internalID: -355920586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 194
+        width: 150
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943bc0cd7f639134ba87d904c63f9a13
+      internalID: -1799151023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 187
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba376d4fceb33ce47bd765e58b50dcdc
+      internalID: 1034729256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 176
+        width: 146
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d745123faa81a84cadd60b39845644d
+      internalID: -1398744678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 164
+        width: 150
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb24e047798354d9b2bf2ef9d8a9ae
+      internalID: -591311745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 167
+        width: 151
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6c5a29a80f0034fbb059861d9bf84f
+      internalID: 1706942375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 164
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee512ee82670e0499f52a70ae14d786
+      internalID: -1392512389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 164
+        width: 147
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec59250467b5c4048829c03f2e3ca889
+      internalID: 1444513802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Follow Hero - SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 187
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab775df7297f9c4daf6e7d03f3dede2
+      internalID: 1860991540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +471,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Follow Hero - SpriteSheet_0: 1946387901
+      Follow Hero - SpriteSheet_1: -844521554
+      Follow Hero - SpriteSheet_10: 1034729256
+      Follow Hero - SpriteSheet_11: -1398744678
+      Follow Hero - SpriteSheet_12: -591311745
+      Follow Hero - SpriteSheet_13: 1706942375
+      Follow Hero - SpriteSheet_14: -1392512389
+      Follow Hero - SpriteSheet_15: 1444513802
+      Follow Hero - SpriteSheet_16: 1860991540
+      Follow Hero - SpriteSheet_2: 407162583
+      Follow Hero - SpriteSheet_3: 1818903598
+      Follow Hero - SpriteSheet_4: 825192831
+      Follow Hero - SpriteSheet_5: -1622023577
+      Follow Hero - SpriteSheet_6: -2005887817
+      Follow Hero - SpriteSheet_7: 521926970
+      Follow Hero - SpriteSheet_8: -355920586
+      Follow Hero - SpriteSheet_9: -1799151023
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

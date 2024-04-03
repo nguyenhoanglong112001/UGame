@@ -12,4 +12,12 @@ public class HitBox : MonoBehaviour
             collision.GetComponent<DrogonController>().TakeDame();
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Dragon"))
+        {
+            collision.gameObject.GetComponent<DrogonController>().TakeDame();
+        }
+    }
 }

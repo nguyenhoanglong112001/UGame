@@ -31,6 +31,25 @@ public class Iblast : MonoBehaviour
         {
             collision.GetComponent<JuggController>().TakeDame();
             Destroy(gameObject);
-        }    
+        }
+        else if (collision.gameObject.CompareTag("Ward"))
+        {
+            collision.gameObject.GetComponent<WardController>().StartDestroy();
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Hero"))
+        {
+            collision.gameObject.GetComponent<JuggController>().TakeDame();
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("Ward"))
+        {
+            collision.gameObject.GetComponent<WardController>().StartDestroy();
+            Destroy(gameObject);
+        }
     }
 }

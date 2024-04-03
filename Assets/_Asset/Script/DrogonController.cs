@@ -20,10 +20,11 @@ public class DrogonController : MonoBehaviour
     [SerializeField] private Transform bulletposition;
     [SerializeField] private Transform attackpoint;
     [SerializeField] private LayerMask herolayer;
-    [SerializeField] private Collider2D attackcollider1;
-    [SerializeField] private Collider2D attackcollider2;
+    [SerializeField] private GameObject[] dragonhitbox;
+    [SerializeField] private Animator heroanimator;
     private bool Alive = true;
     private int currentHP;
+    private bool Iscrouch = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,17 +58,23 @@ public class DrogonController : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.Keypad0))
             {
-                animator.SetTrigger("Attack");
+                if (!Iscrouch)
+                {
+                    animator.SetTrigger("Attack");
+                    Debug.Log(1);
+                }    
+                else if (Iscrouch)
+                {
+                    animator.SetTrigger("CrouchAtk");
+                    Launch();
+                }
             }
             else if (Input.GetKey(KeyCode.RightControl))
             {
                 animator.SetBool("IsCrouching", true);
                 crouchcollider.enabled = true;
                 standcollider.enabled = false;
-                if (Input.GetKeyDown(KeyCode.Keypad0))
-                {
-                    animator.SetTrigger("Attack");
-                }
+                Iscrouch = true;
             }
             else if (Input.GetKeyDown(KeyCode.Keypad1))
             {
@@ -83,6 +90,7 @@ public class DrogonController : MonoBehaviour
                 crouchcollider.enabled = false;
                 standcollider.enabled = true;
                 animator.SetBool("IsCrouching", false);
+                Iscrouch = false;
             }
 
             if (rigi2d.velocity.y < 0)
@@ -137,13 +145,15 @@ public class DrogonController : MonoBehaviour
         if (currentHP <= 0)
         {
             Die();
+            Debug.Log("Dragon Loose");
             Alive = false;
+            heroanimator.SetBool("Win", true);
             return;
         }
         else
         {
             animator.SetTrigger("Hurt");
-            Debug.Log($"{currentHP}/{HP}");
+            Debug.Log($"Dragon: {currentHP}/{HP}");
         }
     }
     void Launch()
@@ -164,29 +174,39 @@ public class DrogonController : MonoBehaviour
             }
         }
     }
-    void EnableAttack()
+    private void EnableHitbox()
     {
         if (spriterender.flipX == true)
         {
-            attackcollider1.enabled = true;
-            attackcollider2.enabled = false;
+            dragonhitbox[0].SetActive(false);
+            dragonhitbox[1].SetActive(true);
         }
         else if (spriterender.flipX == false)
         {
-            attackcollider2.enabled = true;
-            attackcollider1.enabled = false;
+            dragonhitbox[0].SetActive(true);
+            dragonhitbox[1].SetActive(false);
         }
     }
 
-    private void DisableCollider()
+    private void Enablekickbox()
     {
-        attackcollider2.enabled = false;
-        attackcollider1.enabled = false;
+        if (spriterender.flipX == true)
+        {
+            dragonhitbox[2].SetActive(false);
+            dragonhitbox[3].SetActive(true);
+        }
+        else if (spriterender.flipX == false)
+        {
+            dragonhitbox[2].SetActive(true);
+            dragonhitbox[3].SetActive(false);
+        }
     }
-}
 
-public class Temporary
-{
-    public int damage;
-    public float radius;
+    private void falseHitbox()
+    {
+        dragonhitbox[0].SetActive(false);
+        dragonhitbox[1].SetActive(false);
+        dragonhitbox[2].SetActive(false);
+        dragonhitbox[3].SetActive(false);
+    }
 }

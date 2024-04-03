@@ -108,12 +108,12 @@ TextureImporter:
       name: spritesheet_win emote_0
       rect:
         serializedVersion: 2
-        x: 240
-        y: 3364
-        width: 382
-        height: 321
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 223
+        y: 3574
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -129,12 +129,12 @@ TextureImporter:
       name: spritesheet_win emote_1
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 3364
-        width: 382
-        height: 321
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 245
+        y: 3363
+        width: 377
+        height: 322
+      alignment: 9
+      pivot: {x: 0.65395284, y: 0.45396963}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,12 +150,12 @@ TextureImporter:
       name: spritesheet_win emote_2
       rect:
         serializedVersion: 2
-        x: 2240
-        y: 3364
-        width: 382
-        height: 321
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1241
+        y: 3330
+        width: 383
+        height: 355
+      alignment: 9
+      pivot: {x: 0.6653708, y: 0.5037584}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: spritesheet_win emote_3
       rect:
         serializedVersion: 2
-        x: 3353
-        y: 3358
-        width: 298
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2239
+        y: 3328
+        width: 385
+        height: 357
+      alignment: 9
+      pivot: {x: 0.6499962, y: 0.511372}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: spritesheet_win emote_4
       rect:
         serializedVersion: 2
-        x: 411
-        y: 2351
-        width: 287
-        height: 557
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3340
+        y: 3328
+        width: 311
+        height: 516
+      alignment: 9
+      pivot: {x: 0.54192936, y: 0.37906948}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: spritesheet_win emote_5
       rect:
         serializedVersion: 2
-        x: 1409
-        y: 2349
-        width: 297
-        height: 554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 422
+        y: 3328
+        width: 12
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: spritesheet_win emote_6
       rect:
         serializedVersion: 2
-        x: 2409
-        y: 2349
-        width: 295
-        height: 556
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 445
+        y: 3328
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: spritesheet_win emote_7
       rect:
         serializedVersion: 2
-        x: 3409
-        y: 2349
-        width: 293
-        height: 557
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 527
+        y: 3328
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: spritesheet_win emote_8
       rect:
         serializedVersion: 2
-        x: 407
-        y: 1349
-        width: 293
-        height: 558
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1441
+        y: 3328
+        width: 47
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: spritesheet_win emote_9
       rect:
         serializedVersion: 2
-        x: 1407
-        y: 1349
-        width: 291
-        height: 559
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2449
+        y: 3328
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,12 +318,12 @@ TextureImporter:
       name: spritesheet_win emote_10
       rect:
         serializedVersion: 2
-        x: 2407
-        y: 1349
-        width: 291
-        height: 560
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 387
+        y: 2349
+        width: 316
+        height: 558
+      alignment: 9
+      pivot: {x: 0.43515402, y: 0.3238298}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: spritesheet_win emote_11
       rect:
         serializedVersion: 2
-        x: 3407
-        y: 1349
-        width: 293
-        height: 559
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1395
+        y: 2349
+        width: 311
+        height: 558
+      alignment: 9
+      pivot: {x: 0.43411148, y: 0.32716814}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -360,12 +360,12 @@ TextureImporter:
       name: spritesheet_win emote_12
       rect:
         serializedVersion: 2
-        x: 409
-        y: 349
-        width: 291
-        height: 556
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2391
+        y: 2367
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: spritesheet_win emote_13
       rect:
         serializedVersion: 2
-        x: 1409
-        y: 349
-        width: 293
-        height: 555
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2409
+        y: 2344
+        width: 299
+        height: 563
+      alignment: 9
+      pivot: {x: 0.39408544, y: 0.33418906}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: spritesheet_win emote_14
       rect:
         serializedVersion: 2
-        x: 2411
-        y: 349
-        width: 295
-        height: 553
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3389
+        y: 2344
+        width: 316
+        height: 563
+      alignment: 9
+      pivot: {x: 0.4351544, y: 0.32757124}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,6 +415,930 @@ TextureImporter:
       bones: []
       spriteID: ce81b770662101b479336011ed96989c
       internalID: 107742431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2320
+        width: 12
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed308a7b88efd174697285d3d4ad0a3c
+      internalID: 21958701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_16
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2332
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f179d4f162f023541885255179004858
+      internalID: 1860011623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_17
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2332
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90c09579d61e9b478e82122e842a374
+      internalID: 695191925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_18
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 2344
+        width: 35
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a857108475c094da58d2d41a9505c6
+      internalID: 899519699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_19
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 2332
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe81905df3abf649a9bbd03c7d5a133
+      internalID: 2033671393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_20
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 2332
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8feca41fd96db44a0d92df9163b160
+      internalID: -2119950404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_21
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 2320
+        width: 33
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ca9fe4f7bb46745a45db9b3c3d69cd
+      internalID: 184137060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_22
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2320
+        width: 11
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f865506e635e4db42afc40fe2e2fa
+      internalID: 1755499898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_23
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 2320
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9021e4a2f4377154db7c620413b096f8
+      internalID: -1579240654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_24
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2320
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d99669118258334baf829170ba325bd
+      internalID: -1083618810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_25
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 2320
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1629c41c6c6713b4fb9d57738265c772
+      internalID: -272338056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_26
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 2320
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5889d38d1bbfa8441874b3e6179dc6f2
+      internalID: 1690651916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1570
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdb5a328940cc14db2a40ba50ff94ac
+      internalID: 1496005404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1349
+        width: 295
+        height: 562
+      alignment: 9
+      pivot: {x: 0.40527883, y: 0.32815412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8b87770d30d9a49aa67e962623c579
+      internalID: 368568592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_29
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1349
+        width: 291
+        height: 560
+      alignment: 9
+      pivot: {x: 0.4039768, y: 0.3193464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287d7c7e5a851cc4a82a10b098bf67a6
+      internalID: -1309822740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_30
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1348
+        width: 293
+        height: 563
+      alignment: 9
+      pivot: {x: 0.39827418, y: 0.31433603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c4d2c06a5690d4c9a42bcc189ede6e
+      internalID: -2118453893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_31
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 1349
+        width: 295
+        height: 562
+      alignment: 9
+      pivot: {x: 0.43053827, y: 0.31158057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec20ffeb506a98246b6485814a8ad188
+      internalID: 2074168137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_32
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1535
+        width: 47
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6914a10cad07e4580425bc45a55114
+      internalID: -1883087284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_33
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1359
+        width: 23
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355ec1432f42b6f42b1363d1bb11c686
+      internalID: -1969971412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_34
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1313
+        width: 47
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94824dfec83467a4685dfc4c79623ebf
+      internalID: -662619120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_35
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1359
+        width: 11
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c6593174a47a443983b7248574040b
+      internalID: 499914665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_36
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 1359
+        width: 23
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d4d0bf3f2b2f54fb592f898b13b13a
+      internalID: 1735177937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_37
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1359
+        width: 23
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3132de48b01d6c24a9285f2acd590f2e
+      internalID: -432425214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_38
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 1313
+        width: 47
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4093f8fde14f6847b5f6ed9e04b68c5
+      internalID: -1178233943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_39
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1324
+        width: 47
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1563b51a0c2c2240af300a78e0cfaea
+      internalID: 493742558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_40
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1347
+        width: 38
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005820b9129b6104ea8669ab202fe0b5
+      internalID: -1289527259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_41
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1324
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8c2ac4667a73c4fb876206960e4728
+      internalID: 819642041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a6d7d7ce5ba4445986a40996a97ab2
+      internalID: 1509578733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_43
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798099db4d911144b9c1f98e954dde7
+      internalID: 944737981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_44
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67e6e40647765445ab2dc25e723acfb
+      internalID: 1403584144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_45
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2220653e04ca4ee428a57393cc8473fe
+      internalID: -736555588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_46
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4006ac09e2084c64eb99008cb8bcda96
+      internalID: 1451735927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_47
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5dd5966051efd459aec8bf71a24b3d
+      internalID: 2114648233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_48
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1313
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd521a88ac8db664895297e8065f53bf
+      internalID: 885302361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_49
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 1313
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068db21f2115f9d438db1f35a8d09b3b
+      internalID: -1144591041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_50
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 938
+        width: 23
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11e88fbc5e7a544aab52dcf53b465f8
+      internalID: -2014784985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_51
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 316
+        width: 304
+        height: 587
+      alignment: 9
+      pivot: {x: 0.4264665, y: 0.3554339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c898066586bbde44b293c1905233ea4
+      internalID: 1511008293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_52
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 902
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324f3a72cb9621249847148749726c58
+      internalID: -685177430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_53
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 349
+        width: 293
+        height: 554
+      alignment: 9
+      pivot: {x: 0.40463227, y: 0.3160799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549f389695b95b547857c5b672f497a7
+      internalID: -2097919404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_54
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 347
+        width: 299
+        height: 556
+      alignment: 9
+      pivot: {x: 0.41277647, y: 0.31494305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1672a4974c2eb714e85aa64b55729f76
+      internalID: 1093611274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_55
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 363
+        width: 23
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8f88a124da0144f9b14c2e169f35f6
+      internalID: 528542010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_56
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 363
+        width: 11
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a57350dc1f0ca43aaa930c56884e6e
+      internalID: 1571512758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_57
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 363
+        width: 23
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e086e8bcf10c6c4ea99da976fe7f6a9
+      internalID: 1518937693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote_58
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 328
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e0363ce3a4c2e47becc0f17fb318fc
+      internalID: 1950329891
       vertices: []
       indices: 
       edges: []
@@ -437,10 +1361,54 @@ TextureImporter:
       spritesheet_win emote_12: -170429031
       spritesheet_win emote_13: 1506136101
       spritesheet_win emote_14: 107742431
+      spritesheet_win emote_15: 21958701
+      spritesheet_win emote_16: 1860011623
+      spritesheet_win emote_17: 695191925
+      spritesheet_win emote_18: 899519699
+      spritesheet_win emote_19: 2033671393
       spritesheet_win emote_2: -2007989785
+      spritesheet_win emote_20: -2119950404
+      spritesheet_win emote_21: 184137060
+      spritesheet_win emote_22: 1755499898
+      spritesheet_win emote_23: -1579240654
+      spritesheet_win emote_24: -1083618810
+      spritesheet_win emote_25: -272338056
+      spritesheet_win emote_26: 1690651916
+      spritesheet_win emote_27: 1496005404
+      spritesheet_win emote_28: 368568592
+      spritesheet_win emote_29: -1309822740
       spritesheet_win emote_3: 1903711978
+      spritesheet_win emote_30: -2118453893
+      spritesheet_win emote_31: 2074168137
+      spritesheet_win emote_32: -1883087284
+      spritesheet_win emote_33: -1969971412
+      spritesheet_win emote_34: -662619120
+      spritesheet_win emote_35: 499914665
+      spritesheet_win emote_36: 1735177937
+      spritesheet_win emote_37: -432425214
+      spritesheet_win emote_38: -1178233943
+      spritesheet_win emote_39: 493742558
       spritesheet_win emote_4: 329264195
+      spritesheet_win emote_40: -1289527259
+      spritesheet_win emote_41: 819642041
+      spritesheet_win emote_42: 1509578733
+      spritesheet_win emote_43: 944737981
+      spritesheet_win emote_44: 1403584144
+      spritesheet_win emote_45: -736555588
+      spritesheet_win emote_46: 1451735927
+      spritesheet_win emote_47: 2114648233
+      spritesheet_win emote_48: 885302361
+      spritesheet_win emote_49: -1144591041
       spritesheet_win emote_5: 120646412
+      spritesheet_win emote_50: -2014784985
+      spritesheet_win emote_51: 1511008293
+      spritesheet_win emote_52: -685177430
+      spritesheet_win emote_53: -2097919404
+      spritesheet_win emote_54: 1093611274
+      spritesheet_win emote_55: 528542010
+      spritesheet_win emote_56: 1571512758
+      spritesheet_win emote_57: 1518937693
+      spritesheet_win emote_58: 1950329891
       spritesheet_win emote_6: -1658812624
       spritesheet_win emote_7: -1897816849
       spritesheet_win emote_8: -1371661483

@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,1141 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_0
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 2344
+        width: 321
+        height: 551
+      alignment: 9
+      pivot: {x: 0.42409298, y: 0.35351562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f817834f3f9955409cb6cf296c770f3
+      internalID: -641008048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_1
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 2871
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7715fa59ba8080942aea83ee415052d5
+      internalID: -1160908274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_2
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 2349
+        width: 313
+        height: 546
+      alignment: 9
+      pivot: {x: 0.41728702, y: 0.34380677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff43bdbe8cfaba4981f336139ac9d08
+      internalID: 810557181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_3
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 2344
+        width: 307
+        height: 551
+      alignment: 9
+      pivot: {x: 0.3759861, y: 0.36457106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ebc9aad2ac73b409cec19928efcc4c
+      internalID: -83670312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_4
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 2344
+        width: 323
+        height: 547
+      alignment: 9
+      pivot: {x: 0.40570277, y: 0.36358073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef677581d1fbe4f932992123a1c250
+      internalID: -511204704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_5
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 2578
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635622e955aa3f4cbf0100459672606
+      internalID: 1987046581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_6
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 2367
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576e7031849ed8f4c8dd3905e6c99d01
+      internalID: -1747494853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2332
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227b17fbfc21cf34fbeea10bc3efc918
+      internalID: 1024799050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_8
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 2320
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76f78eefd561b447a888c7fa8a621a8
+      internalID: 1106217695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_9
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 2344
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6f76c5d5cf570448b11b26e4a556fe
+      internalID: -1099514730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_10
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 2332
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c82113a5416f547a0f08e3104aa447
+      internalID: -504041685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_11
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 2332
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b35cdff4af14cf4ba620e226d564222
+      internalID: 223056749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_12
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 2320
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8debe30077962944a0bf78a9efa8263
+      internalID: 1811007684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_13
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 2320
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad9dce1deb4154988e198856e66c08
+      internalID: -1567213528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_14
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2320
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780c886489e78ea4691f30fd1793e31e
+      internalID: -2078331700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_15
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 2320
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7657ae165f4b294dbb77283cca85afa
+      internalID: 665162351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_16
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 2320
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7ee2f84bc590c408b53d41e1323a14
+      internalID: 274041477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_17
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1887
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55382be5c76d15643b00ace35840da20
+      internalID: -2129526985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_18
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 1910
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b111903ef389a4aa035a704307ad81
+      internalID: 1180565525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_19
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 1887
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b0d146696e5914f925479b2a45586c
+      internalID: -1056459705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1349
+        width: 307
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc2c55c426bf7f4e80de7ea09bed818
+      internalID: 2134667942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_21
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1351
+        width: 307
+        height: 539
+      alignment: 9
+      pivot: {x: 0.37102577, y: 0.33612752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29777637aa5a66e4c907c006668a7185
+      internalID: 1743459274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_22
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1570
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206ba76410f45c844bcce1c341306e04
+      internalID: -918282245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_23
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1348
+        width: 303
+        height: 540
+      alignment: 9
+      pivot: {x: 0.3642973, y: 0.33925125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68272f934b414794abd695c277acb281
+      internalID: -2088293473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_24
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 1347
+        width: 314
+        height: 539
+      alignment: 9
+      pivot: {x: 0.39330044, y: 0.35590518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ec43fed6a8c11418fc4aace692e6f4
+      internalID: -2030464645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_25
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1359
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59457948a21a46d43bdc879e2c18c92d
+      internalID: -1621357154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_26
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1313
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7582f808aec7e439cdfed207fd5f83
+      internalID: -899573172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_27
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1359
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe8c7500595ce64092c9c6eff36a7d0
+      internalID: -849548652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_28
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 1359
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64162ce15369bef48ab581360009d329
+      internalID: -1822922261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_29
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1359
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8139784259f1fbd4da7ea77877b3aeb9
+      internalID: 236756707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_30
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 1313
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34436bc0ce26bf4bb3515d4875faaf8
+      internalID: 896521449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_31
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1324
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b6682ee27c1bd40aa10311a46ea56e
+      internalID: -1204304444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_32
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1347
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6212f5493c8cb444ab55415418426d56
+      internalID: 978530262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_33
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1324
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941e8fb5955b9144db78ec21eb48be88
+      internalID: -399078157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_34
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773c34ac60fa7c04784a472983c24bbc
+      internalID: -1316425362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_35
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6282d46eacb274682003931394ae89
+      internalID: -135899553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_36
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dc7ee04fb331a4d85e195d85b86f33
+      internalID: 232224631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_37
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e250576937cf944a89ba702357fdd98
+      internalID: -1388823500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_38
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b762754b16c45ed42ae7cf84d8667b4e
+      internalID: -1756362471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_39
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 1324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab41424ffbe94a4bb2a2808daad4b9e
+      internalID: -1022436606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_40
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1313
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077a7a39071bab439e620ce41bff62d
+      internalID: 1413619179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_41
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 1313
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f124b8fd3384c1a41a496028d59b9070
+      internalID: 1923296720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_42
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 347
+        width: 304
+        height: 543
+      alignment: 9
+      pivot: {x: 0.38478127, y: 0.348553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde30a80b8258f94f94e5f536975c29c
+      internalID: 1946174921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_43
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 347
+        width: 314
+        height: 545
+      alignment: 9
+      pivot: {x: 0.3739006, y: 0.34910887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41cf0e137a15174bb6ae5f4be680faf
+      internalID: 251519076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_44
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 891
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bbf994397d6943a1232aa55c46b8e
+      internalID: 510340792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_45
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 316
+        width: 305
+        height: 587
+      alignment: 9
+      pivot: {x: 0.3751729, y: 0.36768827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa102f06095c8df4e871801ba37114fa
+      internalID: -583251954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_46
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 316
+        width: 307
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8c42bcdd942bc44a367363f694259a
+      internalID: 1408436554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_47
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 879
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc81f7fa3f8dfb4a9f01db6ded232f7
+      internalID: -957145737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_48
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 574
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e745659b24c0a7c45b7dfb4781d0574c
+      internalID: 663846517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_49
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 363
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc505c995e5b4e6458cfe5f9a453c37a
+      internalID: -2091129679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_50
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 363
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1936fef8792602a46a61aab9a79261f2
+      internalID: -1400973970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_51
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 363
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e8dc59fbd785948952220bf00321cb
+      internalID: -1197365282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_52
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 363
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e36161057cf8a849b69acf00b9e8874
+      internalID: 115427256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_win emote idle_53
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 328
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aa4adf53f7f2e4bac70a3ca67ba244
+      internalID: 1840720415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1248,61 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spritesheet_win emote idle_0: -641008048
+      spritesheet_win emote idle_1: -1160908274
+      spritesheet_win emote idle_10: -504041685
+      spritesheet_win emote idle_11: 223056749
+      spritesheet_win emote idle_12: 1811007684
+      spritesheet_win emote idle_13: -1567213528
+      spritesheet_win emote idle_14: -2078331700
+      spritesheet_win emote idle_15: 665162351
+      spritesheet_win emote idle_16: 274041477
+      spritesheet_win emote idle_17: -2129526985
+      spritesheet_win emote idle_18: 1180565525
+      spritesheet_win emote idle_19: -1056459705
+      spritesheet_win emote idle_2: 810557181
+      spritesheet_win emote idle_20: 2134667942
+      spritesheet_win emote idle_21: 1743459274
+      spritesheet_win emote idle_22: -918282245
+      spritesheet_win emote idle_23: -2088293473
+      spritesheet_win emote idle_24: -2030464645
+      spritesheet_win emote idle_25: -1621357154
+      spritesheet_win emote idle_26: -899573172
+      spritesheet_win emote idle_27: -849548652
+      spritesheet_win emote idle_28: -1822922261
+      spritesheet_win emote idle_29: 236756707
+      spritesheet_win emote idle_3: -83670312
+      spritesheet_win emote idle_30: 896521449
+      spritesheet_win emote idle_31: -1204304444
+      spritesheet_win emote idle_32: 978530262
+      spritesheet_win emote idle_33: -399078157
+      spritesheet_win emote idle_34: -1316425362
+      spritesheet_win emote idle_35: -135899553
+      spritesheet_win emote idle_36: 232224631
+      spritesheet_win emote idle_37: -1388823500
+      spritesheet_win emote idle_38: -1756362471
+      spritesheet_win emote idle_39: -1022436606
+      spritesheet_win emote idle_4: -511204704
+      spritesheet_win emote idle_40: 1413619179
+      spritesheet_win emote idle_41: 1923296720
+      spritesheet_win emote idle_42: 1946174921
+      spritesheet_win emote idle_43: 251519076
+      spritesheet_win emote idle_44: 510340792
+      spritesheet_win emote idle_45: -583251954
+      spritesheet_win emote idle_46: 1408436554
+      spritesheet_win emote idle_47: -957145737
+      spritesheet_win emote idle_48: 663846517
+      spritesheet_win emote idle_49: -2091129679
+      spritesheet_win emote idle_5: 1987046581
+      spritesheet_win emote idle_50: -1400973970
+      spritesheet_win emote idle_51: -1197365282
+      spritesheet_win emote idle_52: 115427256
+      spritesheet_win emote idle_53: 1840720415
+      spritesheet_win emote idle_6: -1747494853
+      spritesheet_win emote idle_7: 1024799050
+      spritesheet_win emote idle_8: 1106217695
+      spritesheet_win emote idle_9: -1099514730
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

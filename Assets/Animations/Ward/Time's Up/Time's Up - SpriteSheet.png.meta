@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 685
+        width: 123
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69395c26fb25a7429ea2778b5480792
+      internalID: -1333511535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 685
+        width: 128
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68acdb4f632399f4db953e1df37eed7f
+      internalID: 689559646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 688
+        width: 124
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805947b2ba673b440ba98bb190037f1c
+      internalID: -1604675486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 688
+        width: 121
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae59fa285c4c3204fade38caad85e320
+      internalID: -2086684130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 690
+        width: 123
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556ea6c04647e1f459b8bc065209d5a5
+      internalID: -762760719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 685
+        width: 123
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148a2d00733060848aca06a0ebcd72eb
+      internalID: -773458196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 190
+        width: 121
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620cbfa7aaffc3c4e9ea7dba7efad803
+      internalID: 1788915973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 190
+        width: 129
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e852bd734168f04f96e1ed07c5736af
+      internalID: 753702300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 190
+        width: 120
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d7c5bea7d943c47bdd1232932dfe55
+      internalID: -213283493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 190
+        width: 121
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8752e9b8aed726146be11802712af64b
+      internalID: 1517561819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 184
+        width: 123
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eacc5fbcaf56048b1e142e7e12c747
+      internalID: 1823530846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time's Up - SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 190
+        width: 124
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1982c1aba182445418fb9a97e78efde1
+      internalID: -32071892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +366,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Time's Up - SpriteSheet_0: -1333511535
+      Time's Up - SpriteSheet_1: 689559646
+      Time's Up - SpriteSheet_10: 1823530846
+      Time's Up - SpriteSheet_11: -32071892
+      Time's Up - SpriteSheet_2: -1604675486
+      Time's Up - SpriteSheet_3: -2086684130
+      Time's Up - SpriteSheet_4: -762760719
+      Time's Up - SpriteSheet_5: -773458196
+      Time's Up - SpriteSheet_6: 1788915973
+      Time's Up - SpriteSheet_7: 753702300
+      Time's Up - SpriteSheet_8: -213283493
+      Time's Up - SpriteSheet_9: 1517561819
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

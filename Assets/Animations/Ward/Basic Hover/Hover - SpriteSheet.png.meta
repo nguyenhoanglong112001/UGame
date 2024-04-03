@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1184
+        width: 126
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f6c94ff9e4d15488bb2e8f00f4c8af
+      internalID: 589342655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1192
+        width: 133
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6924a19cc4fb4c3479d5a9ac34147a76
+      internalID: 1331791066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1194
+        width: 123
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c2b17042cd07c4893709a0cc88934a
+      internalID: 1045913492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1196
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bc9c2dbcb08104ca68a76f769b58f1
+      internalID: 163472605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1198
+        width: 126
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7fab6f3a3a32043a69e5f8dbd030e9
+      internalID: -17968511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1199
+        width: 125
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c849e2d54c4b34aa82388003c6273b
+      internalID: 1185458403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 1204
+        width: 124
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c29b2718b24fbf4283a1c17cec1f1bb
+      internalID: 911650747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 1208
+        width: 126
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eb6b6068bdbe749b77a8ae773906f0
+      internalID: -482995862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 710
+        width: 125
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f2ca6fc93ba04c9376f129d9870ad
+      internalID: -1069894678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 712
+        width: 126
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a33d9fdf04ead4c9c53c80fae93391
+      internalID: 1857755806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 714
+        width: 125
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02514713c8d167a4b8fdca902247513e
+      internalID: -1895155735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 714
+        width: 123
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2cda7db01439c4e84ae86045400f3e
+      internalID: 998946573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 714
+        width: 126
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ee605cf41bdd47922eb0dd86cfb47
+      internalID: 1490581324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 712
+        width: 123
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6180594bcd3f188469bae9eeacb816e4
+      internalID: -786813930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 712
+        width: 124
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7dc665694498c4d904f34debe34cd8
+      internalID: -1779624920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 710
+        width: 126
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd267317fb67a914d86257b7524eef44
+      internalID: 325529496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 206
+        width: 125
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786c9b6d7bfd2294396466d3d6c9924c
+      internalID: 1753073486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 202
+        width: 126
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbc776cfd40d9a4cb5f21bc2c16209f
+      internalID: 428167563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 198
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8923a399abd974bbcab46c7bf332f8
+      internalID: -638437321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 194
+        width: 125
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0288f995f0d27754cb51313a41df8052
+      internalID: -149734713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 192
+        width: 126
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd45e78864aa744d8dbbf68bb609bca
+      internalID: 1795230579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 187
+        width: 124
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873ac1ca8c93e1f419c04b8e8973bfbc
+      internalID: 303736853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 190
+        width: 123
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8883014ed983d5848b0c2a92d1a5ff50
+      internalID: -1629925208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hover - SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 190
+        width: 126
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92450729509d8d84daeeec2d957e63f6
+      internalID: 1630469120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +618,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hover - SpriteSheet_0: 589342655
+      Hover - SpriteSheet_1: 1331791066
+      Hover - SpriteSheet_10: -1895155735
+      Hover - SpriteSheet_11: 998946573
+      Hover - SpriteSheet_12: 1490581324
+      Hover - SpriteSheet_13: -786813930
+      Hover - SpriteSheet_14: -1779624920
+      Hover - SpriteSheet_15: 325529496
+      Hover - SpriteSheet_16: 1753073486
+      Hover - SpriteSheet_17: 428167563
+      Hover - SpriteSheet_18: -638437321
+      Hover - SpriteSheet_19: -149734713
+      Hover - SpriteSheet_2: 1045913492
+      Hover - SpriteSheet_20: 1795230579
+      Hover - SpriteSheet_21: 303736853
+      Hover - SpriteSheet_22: -1629925208
+      Hover - SpriteSheet_23: 1630469120
+      Hover - SpriteSheet_3: 163472605
+      Hover - SpriteSheet_4: -17968511
+      Hover - SpriteSheet_5: 1185458403
+      Hover - SpriteSheet_6: 911650747
+      Hover - SpriteSheet_7: -482995862
+      Hover - SpriteSheet_8: -1069894678
+      Hover - SpriteSheet_9: 1857755806
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
