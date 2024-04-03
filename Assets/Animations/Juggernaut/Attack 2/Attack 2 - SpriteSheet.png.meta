@@ -488,10 +488,10 @@ TextureImporter:
         serializedVersion: 2
         x: 202
         y: 314
-        width: 455
+        width: 695
         height: 376
       alignment: 9
-      pivot: {x: 0.6725395, y: 0.55567753}
+      pivot: {x: 0.44571552, y: 0.54805464}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,36 +504,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack 2 - SpriteSheet_19
-      rect:
-        serializedVersion: 2
-        x: 834
-        y: 594
-        width: 22
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 961f083413dcbc64caa29f4c2df205c4
-      internalID: -1697747958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Attack 2 - SpriteSheet_20
       rect:
         serializedVersion: 2
-        x: 1191
+        x: 1194
         y: 334
-        width: 470
+        width: 698
         height: 356
       alignment: 9
-      pivot: {x: 0.67749727, y: 0.5270048}
+      pivot: {x: 0.45141637, y: 0.52300406}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,27 +520,6 @@ TextureImporter:
       bones: []
       spriteID: d54d37ce237b09f49b6b0b601d6e1737
       internalID: -1382082833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack 2 - SpriteSheet_21
-      rect:
-        serializedVersion: 2
-        x: 1833
-        y: 594
-        width: 23
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a83a07cdcfa75de40a32e170135218ce
-      internalID: -2091744577
       vertices: []
       indices: 
       edges: []
@@ -646,111 +604,6 @@ TextureImporter:
       bones: []
       spriteID: 0808006df48c828438a2c675ecd38fae
       internalID: 376750670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack 2 - SpriteSheet_26
-      rect:
-        serializedVersion: 2
-        x: 743
-        y: 459
-        width: 85
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b06c7c4ff6a869e4093af1790c555652
-      internalID: -819155344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack 2 - SpriteSheet_27
-      rect:
-        serializedVersion: 2
-        x: 1742
-        y: 459
-        width: 44
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a5a00b985d59f243bef487b734655ca
-      internalID: -2128307931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack 2 - SpriteSheet_28
-      rect:
-        serializedVersion: 2
-        x: 1786
-        y: 491
-        width: 42
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f5916129ad107042bb0756f52191859
-      internalID: -860004761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack 2 - SpriteSheet_29
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 421
-        width: 55
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb59eff98434d4b40a57d357431765c1
-      internalID: 357157642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack 2 - SpriteSheet_30
-      rect:
-        serializedVersion: 2
-        x: 1821
-        y: 421
-        width: 52
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1641b321c07331d44bc3111f96dd4bd9
-      internalID: -1811838228
       vertices: []
       indices: 
       edges: []
