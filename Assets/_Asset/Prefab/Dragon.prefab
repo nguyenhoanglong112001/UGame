@@ -448,7 +448,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   jumpforce: 10
-  HP: 5
   strikespeed: 5
   crouchcollider: {fileID: 3774756019933220135}
   standcollider: {fileID: 3774756019933220142}
@@ -465,6 +464,14 @@ MonoBehaviour:
   - {fileID: 6426433667946276907}
   - {fileID: 2046799841}
   heroanimator: {fileID: 0}
+  Heart:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Alive: 1
 --- !u!70 &3774756019933220142
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
