@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class JuggController : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class JuggController : MonoBehaviour
     [SerializeField] private int jumpforce;
     [SerializeField] private int runspeed;
     [SerializeField] private int rollspeed;
-    [SerializeField] private int HP;
+    private int HP;
     [SerializeField] private Collider2D rollcollider;
     [SerializeField] private Collider2D standcollider;
     [SerializeField] private GameObject[] hitbox;
@@ -21,8 +22,9 @@ public class JuggController : MonoBehaviour
     [SerializeField] private Transform heropoint;
     [SerializeField] private List<Transform> sumonpoint;
     [SerializeField] private GameObject wardPrefab;
+    [SerializeField] private Image[] Heart; 
     private int currentHP;
-    private bool Alive = true;
+    public bool Alive = true;
     private GameObject objectspawn;
 
     [SerializeField] private LayerMask enemuLayer;
@@ -34,6 +36,7 @@ public class JuggController : MonoBehaviour
         rigi2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriterender = GetComponent<SpriteRenderer>();
+        HP = Heart.Length;
         currentHP = HP;
     }
 
@@ -155,6 +158,10 @@ public class JuggController : MonoBehaviour
         {
             return;
         }
+        if (CompareTag("Hero"))
+        {
+            Heart[currentHP - 1].enabled = false;
+        }
         currentHP -= 1;
         if (currentHP <= 0)
         {
@@ -167,7 +174,6 @@ public class JuggController : MonoBehaviour
         else
         {
             animator.SetTrigger("Hurt");
-            Debug.Log($"Jugg: {currentHP}/{HP}");
         }
     }
 
@@ -245,7 +251,7 @@ public class JuggController : MonoBehaviour
         if (currentHP < HP)
         {
             currentHP += 1;
-            Debug.Log($"{currentHP}/{HP}");
+            Heart[currentHP - 1].enabled = true;
         }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DrogonController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class DrogonController : MonoBehaviour
     private bool IsGround = false;
     [SerializeField] private int speed;
     [SerializeField] private int jumpforce;
-    [SerializeField] private int HP;
+    private int HP;
     [SerializeField] private int strikespeed;
     [SerializeField] private Collider2D crouchcollider;
     [SerializeField] private Collider2D standcollider;
@@ -22,7 +23,8 @@ public class DrogonController : MonoBehaviour
     [SerializeField] private LayerMask herolayer;
     [SerializeField] private GameObject[] dragonhitbox;
     [SerializeField] private Animator heroanimator;
-    private bool Alive = true;
+    [SerializeField] private Image[] Heart;
+    public bool Alive = true;
     private int currentHP;
     private bool Iscrouch = false;
     // Start is called before the first frame update
@@ -31,6 +33,7 @@ public class DrogonController : MonoBehaviour
         rigi2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriterender = GetComponent<SpriteRenderer>();
+        HP = Heart.Length;
         currentHP = HP;
     }
 
@@ -141,19 +144,22 @@ public class DrogonController : MonoBehaviour
         {
             return;
         }
+        if (CompareTag("Dragon"))
+        {
+            Heart[currentHP - 1].enabled = false;
+        }
         currentHP -= 1;
         if (currentHP <= 0)
         {
             Die();
-            Debug.Log("Dragon Loose");
             Alive = false;
             heroanimator.SetBool("Win", true);
+            Debug.Log(Alive);
             return;
         }
         else
         {
             animator.SetTrigger("Hurt");
-            Debug.Log($"Dragon: {currentHP}/{HP}");
         }
     }
     void Launch()
