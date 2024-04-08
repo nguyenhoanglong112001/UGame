@@ -8,8 +8,6 @@ public class JuggController : MonoBehaviour
     private Rigidbody2D rigi2d;
     private Animator animator;
     private SpriteRenderer spriterender;
-    private bool isJumping;
-    private bool IsGround = false;
     [SerializeField] private int speed;
     [SerializeField] private int jumpforce;
     [SerializeField] private int runspeed;
@@ -17,13 +15,12 @@ public class JuggController : MonoBehaviour
     private int HP;
     [SerializeField] private Collider2D rollcollider;
     [SerializeField] private Collider2D standcollider;
-    [SerializeField] private GameObject[] hitbox;
     [SerializeField] private Animator dragonanimator;
     [SerializeField] private Transform heropoint;
     [SerializeField] private List<Transform> sumonpoint;
     [SerializeField] private GameObject wardPrefab;
     [SerializeField] private Image[] Heart; 
-    private int currentHP;
+    public int currentHP;
     public bool Alive = true;
     private GameObject objectspawn;
 
@@ -45,107 +42,14 @@ public class JuggController : MonoBehaviour
     {
         if (Alive)
         {
-            if (Input.GetKey(KeyCode.D))
-            {
-                if (Input.GetKey(KeyCode.LeftShift))
-                {
-                    transform.Translate(Vector2.right * runspeed * Time.deltaTime);
-                    animator.SetBool("IsRunning", true);
-                    animator.SetBool("IsWalking", false);
-                    spriterender.flipX = false;
-                }
-                else
-                {
-                    transform.Translate(Vector2.right * speed * Time.deltaTime);
-                    animator.SetBool("IsRunning", false);
-                    animator.SetBool("IsWalking", true);
-                    spriterender.flipX = false;
-                }
-            }
-            else if (Input.GetKey(KeyCode.A))
-            {
-                if (Input.GetKey(KeyCode.LeftShift))
-                {
-                    transform.Translate(Vector2.left * runspeed * Time.deltaTime);
-                    animator.SetBool("IsRunning", true);
-                    animator.SetBool("IsWalking", false);
-                    spriterender.flipX = true;
-                }
-                else
-                {
-                    transform.Translate(Vector2.left * speed * Time.deltaTime);
-                    animator.SetBool("IsRunning", false);
-                    animator.SetBool("IsWalking", true);
-                    spriterender.flipX = true;
-                }
-            }
-            else if (Input.GetKeyDown(KeyCode.W) && IsGround)
-            {
-                rigi2d.velocity = Vector2.up * jumpforce;
-                animator.SetBool("IsJumping", true);
-            }
-            else if (Input.GetKeyDown(KeyCode.J))
-            {
-                animator.SetTrigger("Attack");
-            }
-            else if (Input.GetKeyDown(KeyCode.K))
-            {
-                animator.SetTrigger("Attack2");
-            }
-            else if (Input.GetKeyDown(KeyCode.L))
+            if (Input.GetKeyDown(KeyCode.H))
             {
                 animator.SetTrigger("Summon");
                 SummonWard();
             }
-            else if (Input.GetKeyDown(KeyCode.LeftControl))
-            {
-                animator.SetTrigger("Roll");
-                rollcollider.enabled = true;
-                standcollider.enabled = false;
-                if (spriterender.flipX == false)
-                {
-                    rigi2d.velocity = Vector2.right * rollspeed;
-                }
-                else if (spriterender.flipX == true)
-                {
-                    rigi2d.velocity = Vector2.left * rollspeed;
-                }
-            }
-            else if (Input.GetKeyDown(KeyCode.H))
-            {
-                animator.SetTrigger("Kick");
-            }
-            else
-            {
-                animator.SetBool("IsWalking", false);
-                animator.SetBool("IsRunning", false);
-                rollcollider.enabled = false;
-                standcollider.enabled = true;
-            }
-            if (rigi2d.velocity.y < 0)
-            {
-                animator.SetBool("IsFalling", true);
-                animator.SetBool("IsJumping", false);
-            }
-        }
-    }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            IsGround = true;
-            animator.SetBool("IsGround", true);
-            animator.SetBool("IsFalling", false);
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            IsGround = false;
-        }
-    }
 
     void Death()
     {
@@ -176,59 +80,6 @@ public class JuggController : MonoBehaviour
             animator.SetTrigger("Hurt");
         }
     }
-
-    private void DisableHitbox()
-    {
-        hitbox[0].SetActive(false);
-        hitbox[1].SetActive(false);
-        hitbox[2].SetActive(false);
-        hitbox[3].SetActive(false);        
-        hitbox[4].SetActive(false);
-        hitbox[5].SetActive(false);
-    }
-
-    private void EnableHitbox()
-    {
-        if (spriterender.flipX == true)
-        {
-            hitbox[0].SetActive(false);
-            hitbox[1].SetActive(true);
-        }
-        else if (spriterender.flipX == false)
-        {
-            hitbox[0].SetActive(true);
-            hitbox[1].SetActive(false);
-        }
-    }
-
-    private void EnableHitbox2()
-    {
-        if (spriterender.flipX == true)
-        {
-            hitbox[2].SetActive(false);
-            hitbox[3].SetActive(true);
-        }
-        else if (spriterender.flipX == false)
-        {
-            hitbox[2].SetActive(true);
-            hitbox[3].SetActive(false);
-        }
-    }
-
-    private void EnableKick()
-    {
-        if (spriterender.flipX == true)
-        {
-            hitbox[4].SetActive(false);
-            hitbox[5].SetActive(true);
-        }
-        else if (spriterender.flipX == false)
-        {
-            hitbox[4].SetActive(true);
-            hitbox[5].SetActive(false);
-        }
-    }
-
     private void SummonWard()
     {
         if (objectspawn == null)

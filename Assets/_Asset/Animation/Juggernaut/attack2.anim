@@ -142,8 +142,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.9833333
-    functionName: DisableHitbox
+  - time: 2
+    functionName: DiasbleHitbox
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

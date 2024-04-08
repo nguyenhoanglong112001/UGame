@@ -8,8 +8,6 @@ public class DrogonController : MonoBehaviour
     private Rigidbody2D rigi2d;
     private Animator animator;
     private SpriteRenderer spriterender;
-    private bool isJumping;
-    private bool IsGround = false;
     [SerializeField] private int speed;
     [SerializeField] private int jumpforce;
     private int HP;
@@ -25,7 +23,7 @@ public class DrogonController : MonoBehaviour
     [SerializeField] private Animator heroanimator;
     [SerializeField] private Image[] Heart;
     public bool Alive = true;
-    private int currentHP;
+    public int currentHP;
     private bool Iscrouch = false;
     // Start is called before the first frame update
     void Start()
@@ -42,24 +40,7 @@ public class DrogonController : MonoBehaviour
     {
         if (Alive)
         {
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                transform.Translate(Vector2.left * speed * Time.deltaTime);
-                animator.SetBool("IsWalking", true);
-                spriterender.flipX = true;
-            }
-            else if (Input.GetKey(KeyCode.RightArrow))
-            {
-                transform.Translate(Vector2.right * speed * Time.deltaTime);
-                animator.SetBool("IsWalking", true);
-                spriterender.flipX = false;
-            }
-            else if (Input.GetKeyDown(KeyCode.UpArrow) && IsGround)
-            {
-                rigi2d.velocity = Vector2.up * jumpforce;
-                animator.SetBool("IsJumping", true);
-            }
-            else if (Input.GetKeyDown(KeyCode.Keypad0))
+            if (Input.GetKeyDown(KeyCode.Keypad0))
             {
                 if (!Iscrouch)
                 {
@@ -79,60 +60,14 @@ public class DrogonController : MonoBehaviour
                 standcollider.enabled = false;
                 Iscrouch = true;
             }
-            else if (Input.GetKeyDown(KeyCode.Keypad1))
-            {
-                animator.SetTrigger("Kick");
-            }
-            else if (Input.GetKeyDown(KeyCode.RightShift))
-            {
-                animator.SetTrigger("Strike");
-            }
             else
             {
-                animator.SetBool("IsWalking", false);
-                crouchcollider.enabled = false;
-                standcollider.enabled = true;
                 animator.SetBool("IsCrouching", false);
                 Iscrouch = false;
             }
-
-            if (rigi2d.velocity.y < 0)
-            {
-                animator.SetBool("IsFalling", true);
-                animator.SetBool("IsJumping", false);
-            }
         }
     }
 
-    void Strike()
-    {
-        if (spriterender.flipX == false)
-        {
-            rigi2d.velocity = Vector2.right * strikespeed;
-        }
-        else if (spriterender.flipX == true)
-        {
-            rigi2d.velocity = Vector2.left * strikespeed;
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.CompareTag("Ground"))
-        {
-            IsGround = true;
-            animator.SetBool("IsGround", true);
-            animator.SetBool("IsFalling", false);
-            animator.SetBool("IsJumping", false);
-        }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            IsGround = false;
-        }
-    }
     private void Die()
     {
         animator.SetTrigger("Die");
@@ -179,40 +114,5 @@ public class DrogonController : MonoBehaviour
                 iblast.velocity = Vector2.right * bulletspeed;
             }
         }
-    }
-    private void EnableHitbox()
-    {
-        if (spriterender.flipX == true)
-        {
-            dragonhitbox[0].SetActive(false);
-            dragonhitbox[1].SetActive(true);
-        }
-        else if (spriterender.flipX == false)
-        {
-            dragonhitbox[0].SetActive(true);
-            dragonhitbox[1].SetActive(false);
-        }
-    }
-
-    private void Enablekickbox()
-    {
-        if (spriterender.flipX == true)
-        {
-            dragonhitbox[2].SetActive(false);
-            dragonhitbox[3].SetActive(true);
-        }
-        else if (spriterender.flipX == false)
-        {
-            dragonhitbox[2].SetActive(true);
-            dragonhitbox[3].SetActive(false);
-        }
-    }
-
-    private void falseHitbox()
-    {
-        dragonhitbox[0].SetActive(false);
-        dragonhitbox[1].SetActive(false);
-        dragonhitbox[2].SetActive(false);
-        dragonhitbox[3].SetActive(false);
     }
 }
