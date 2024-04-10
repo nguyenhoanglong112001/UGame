@@ -8,13 +8,19 @@ public class JumpControl : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriterender;
     [SerializeField] private KeyCode jumpcontrol;
-    private bool IsGround = false;
+    [SerializeField] private GroundCheck groundcheck;
 
+    private void Start()
+    {
+        rigi2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriterender = GetComponent<SpriteRenderer>();
+    }
     public void Jump()
     {
         if (Alive)
         {
-            if (Input.GetKeyDown(jumpcontrol) && IsGround)
+            if (Input.GetKeyDown(jumpcontrol) && groundcheck.IsGround)
             {
                 rigi2d.velocity = Vector2.up * jumpforce;
                 animator.SetBool("IsJumping", true);
@@ -26,31 +32,6 @@ public class JumpControl : MonoBehaviour
             }
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            IsGround = true;
-            animator.SetBool("IsGround", true);
-            animator.SetBool("IsFalling", false);
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            IsGround = false;
-        }
-    }
-    private void Start()
-    {
-        rigi2d = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        spriterender = GetComponent<SpriteRenderer>();
-    }
-
     private void Update()
     {
         Jump();

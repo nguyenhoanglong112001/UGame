@@ -9,14 +9,19 @@ public class StrikeControll : MonoBehaviour
     [SerializeField] private Collider2D standcollider;
     [SerializeField] private int rollspeed;
     [SerializeField] private KeyCode strikekey;
-    [SerializeField] private GameObject[] strikebox;
-    private void Strike()
+    [SerializeField] private string herotag;
+    [SerializeField] private Transform[] strikebox;
+    [SerializeField] private LayerMask targetlayer;
+    [SerializeField] private float attackrange;
+    private bool isstrike = false;
+    private void CheckStrike()
     {
         if (Input.GetKeyDown(strikekey))
         {
             animator.SetTrigger("Roll");
             rollcollider.enabled = true;
             standcollider.enabled = false;
+            isstrike = true;
             if (spriterender.flipX == false)
             {
                 rigi2d.velocity = Vector2.right * rollspeed;
@@ -26,31 +31,9 @@ public class StrikeControll : MonoBehaviour
                 rigi2d.velocity = Vector2.left * rollspeed;
             }
         }
-    }
-
-    private void EnableStrikebox()
-    {
-        if(gameObject.CompareTag("Dragon"))
+        else
         {
-            if (spriterender.flipX == true)
-            {
-                strikebox[0].SetActive(false);
-                strikebox[1].SetActive(true);
-            }
-            else if (spriterender.flipX == false)
-            {
-                strikebox[0].SetActive(true);
-                strikebox[1].SetActive(false);
-            }
-        }
-    }
-
-    private void DisableStrikeBox()
-    {
-        if(gameObject.CompareTag("Dragon"))
-        {
-            strikebox[0].SetActive(false);
-            strikebox[1].SetActive(false);
+            isstrike = false;
         }
     }
 
@@ -63,6 +46,28 @@ public class StrikeControll : MonoBehaviour
 
     private void Update()
     {
-        Strike();
+        CheckStrike();
+    }
+
+    private void Strike()
+    {
+        if (spriterender.flipX == false)
+        {
+            var hit = Physics2D.CircleCast(strikebox[0].position, attackrange, transform.right, 0f, targetlayer);
+            if (hit.collider != null)
+            {
+                HealthManager targetheralth = hit.collider.GetComponent<HealthManager>();
+                targetheralth.TakeDame();
+            }
+        }
+        else if (spriterender.flipX == true)
+        {
+            var hit = Physics2D.CircleCast(strikebox[1].position, attackrange, transform.right * -1, 0f, targetlayer);
+            if (hit.collider != null)
+            {
+                HealthManager targetheralth = hit.collider.GetComponent<HealthManager>();
+                targetheralth.TakeDame();
+            }
+        }
     }
 }

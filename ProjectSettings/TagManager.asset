@@ -9,6 +9,7 @@ TagManager:
   - Dragon
   - Iblast
   - Ward
+  - RightAttk
   layers:
   - Default
   - TransparentFX

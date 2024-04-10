@@ -12,7 +12,7 @@ public class WardController : MonoBehaviour
     [SerializeField] private Rigidbody2D targetrigi2d;
     [SerializeField] private SpriteRenderer objsprite;
     private Vector3 lastposition;
-    public JuggController targetscript;
+    public HealthManager targetscript;
     private float dis;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class WardController : MonoBehaviour
         anima = GetComponent<Animator>();
         objsprite = GetComponent<SpriteRenderer>();
         lastposition = transform.position;
-        targetscript = FindObjectOfType<JuggController>();
+        targetscript = FindObjectOfType<HealthManager>();
         InvokeRepeating("CallMethod", 2.0f, 2.0f);
         StartCoroutine(RoutineMethod());
     }

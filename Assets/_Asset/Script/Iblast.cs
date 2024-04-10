@@ -29,7 +29,8 @@ public class Iblast : MonoBehaviour
     {
         if(collision.CompareTag("Hero"))
         {
-            collision.GetComponent<JuggController>().TakeDame();
+            HealthManager herohealth = collision.GetComponent<HealthManager>();
+            herohealth.TakeDame();
             Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("Ward"))
@@ -43,7 +44,8 @@ public class Iblast : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Hero"))
         {
-            collision.gameObject.GetComponent<JuggController>().TakeDame();
+            HealthManager herohealth = collision.gameObject.GetComponent<HealthManager>();
+            herohealth.TakeDame();
             Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("Ward"))

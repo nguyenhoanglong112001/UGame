@@ -20,5 +20,7 @@ public class ButtonScript : MonoBehaviour
     public void StartGame(string scenename)
     {
         SceneManager.LoadScene(scenename);
+
+        Time.timeScale = 1f;
     }
 }

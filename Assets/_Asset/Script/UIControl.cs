@@ -7,14 +7,9 @@ public class UIControl : MonoBehaviour
 {
     [SerializeField] private Text message;
     [SerializeField] private Canvas Anoun;
-    [SerializeField]private JuggController Player1;
-    [SerializeField]private DrogonController Player2;
+    [SerializeField]private HealthManager[] characterhealth;
     [SerializeField] private Text time;
     [SerializeField] private float battletime;
-    [SerializeField] private Text leftscore;
-    [SerializeField] private Text rightscore;
-    private int player1score;
-    private int player2score;
     private bool isgameend;
     private float remainingtime;
     private bool Istimerunning;
@@ -26,10 +21,6 @@ public class UIControl : MonoBehaviour
         time.text = remainingtime.ToString();
         Anoun.gameObject.SetActive(false);
         isgameend = false;
-        player1score = 0;
-        player2score = 0;
-        leftscore.text = player1score.ToString();
-        rightscore.text = player2score.ToString();
         SetText();
     }
     void Update()
@@ -41,32 +32,32 @@ public class UIControl : MonoBehaviour
     private void SetText()
     {
         isgameend = true;
-        if (Player1.Alive == true && Player2.Alive == false)
+        if (characterhealth[0].Alive == true && characterhealth[1].Alive == false)
         {
             Anoun.gameObject.SetActive(true);
             message.text = "Player1 winning";
         }
-        else if (Player1.Alive == false && Player2.Alive == true)
+        if (characterhealth[0].Alive == false && characterhealth[1].Alive == true)
         {
             Debug.Log("Player win");
             Anoun.gameObject.SetActive(true);
             message.text = "Player2 winning";
         }
-        else if (Player1.Alive == true && Player2.Alive == true)
+        if (characterhealth[0].Alive == true && characterhealth[1].Alive == false)
         {
             if(remainingtime <= 0)
             {
-                if (Player1.currentHP > Player2.currentHP)
+                if (characterhealth[0].currentHP > characterhealth[1].currentHP)
                 {
                     Anoun.gameObject.SetActive(true);
                     message.text = "Player1 winning";
                 }
-                else if (Player1.currentHP < Player2.currentHP)
+                else if (characterhealth[0].currentHP < characterhealth[1].currentHP)
                 {
                     Anoun.gameObject.SetActive(true);
                     message.text = "Player2 winning";
                 }
-                else if (Player1.currentHP == Player2.currentHP)
+                else if (characterhealth[0].currentHP == characterhealth[1].currentHP)
                 {
                     message.text = "Draw";
                 }

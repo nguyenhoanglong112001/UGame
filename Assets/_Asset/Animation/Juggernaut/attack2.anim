@@ -48,7 +48,7 @@ AnimationClip:
     - time: 1.1333333
       value: {fileID: -279188840, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - time: 1.2166667
-      value: {fileID: 503503466, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
+      value: {fileID: -279188840, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - time: 1.3
       value: {fileID: 257808054, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - time: 1.3833333
@@ -100,7 +100,7 @@ AnimationClip:
     - {fileID: 680109822, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - {fileID: 324512021, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - {fileID: -279188840, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
-    - {fileID: 503503466, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
+    - {fileID: -279188840, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - {fileID: 257808054, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - {fileID: -2111483732, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
     - {fileID: 2142143663, guid: 75640da1a181d674eb953a9233e6566b, type: 3}
@@ -135,15 +135,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 1.2166667
-    functionName: EnableHitbox
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 2
-    functionName: DiasbleHitbox
+  - time: 1.3
+    functionName: SpecialAttack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
